@@ -1,0 +1,156 @@
+.wrap {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.shop {
+  position: relative;
+  width: 45%;
+}
+
+.back {
+  display: inline-block;
+  padding: 7px 8px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px grey;
+  font-weight: bold;
+}
+
+.shop_name {
+  display: inline-block;
+  position: absolute;
+  top: 3px;
+  margin-left: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.shop_img {
+  margin-top: 25px;
+}
+
+.shop_img img {
+  width: 100%;
+}
+
+.shop_tag {
+  display: flex;
+  margin-top: 20px;
+}
+
+.shop_tag p:not(:first-of-type) {
+  margin-left: 5px;
+}
+
+.shop_sentence {
+  margin-top: 25px;
+  line-height: 1.5;
+}
+
+.reserve {
+  position: relative;
+  width: 45%;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px grey;
+  background-color: rgb(72, 72, 255);
+  color: white;
+  overflow: hidden;
+}
+
+.reserve h3 {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+#date,
+#time,
+#number {
+  display: block;
+  margin-bottom: 15px;
+  padding: 5px;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+#date {
+  width: 35%;
+}
+
+#time {
+  position: relative;
+  width: 90%;
+}
+
+#number {
+  width: 100%;
+}
+
+.triangle {
+  position: relative;
+  width: 92%;
+}
+
+#time::after,
+.triangle::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  background: url(../img/triangle.png) no-repeat;
+  background-size: cover;
+  width: 10px;
+  height: 10px;
+  transform: translate(0, -50%);
+}
+
+input[type="time"]::-webkit-calendar-picker-indicator {
+  background: none;
+}
+
+.outer {
+  padding: 30px;
+}
+
+.inner {
+  width: 80%;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: rgb(125, 170, 255);
+}
+
+.inner table {
+  width: 100%;
+}
+
+.inner th,
+.inner tr {
+  padding: 5px 0;
+}
+
+.inner th {
+  text-align: left;
+  font-weight: normal;
+}
+
+.reserve button {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px 0;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  cursor: pointer;
+  background-color: blue;
+  color: white;
+}

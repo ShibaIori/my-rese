@@ -1,0 +1,54 @@
+.wrap {
+  width: 30%;
+  margin: 100px auto 0 auto;
+  border-radius: 5px;
+  box-shadow: 1px 1px 4px grey;
+  overflow: hidden;
+}
+
+.wrap h2 {
+  padding: 15px;
+  background-color: rgb(72, 72, 255);
+  font-weight: normal;
+  color: white;
+}
+
+.registration {
+  padding: 25px;
+}
+
+.inner {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+}
+
+.icon img {
+  width: 100%;
+}
+
+.input {
+  width: 88%;
+  border: none;
+  border-bottom: solid 1px black;
+  outline: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.button {
+  display: block;
+  padding: 5px 15px;
+  margin-top: 25px;
+  margin-left: auto;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(72, 72, 255);
+  color: white;
+}
